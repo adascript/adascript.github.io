@@ -4,13 +4,19 @@
   <body>
     <div class="page-content">
       <div class="container">
-        <div class="three columns">
-          {% include header.html %}
+        <div class="row">
+          <div class="twelve columns">
+            {% include title.html %}
+          </div>
         </div>
-
-        <div class="nine columns" style="z-index:100;">
-          <div class="wrapper">
-            {{ content }}
+        <div class="row">
+          <div class="three columns">
+            {% include header.html %}
+          </div>
+          <div class="nine columns" style="z-index:100;">
+            <div class="wrapper">
+              {{ content }}
+            </div>
           </div>
         </div>
       </div>
