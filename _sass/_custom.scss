@@ -1,3 +1,9 @@
+a {
+    text-decoration: underline;
+    -webkit-transition: initial;
+    transition: initial;
+}
+
 figure.about-pic {
     text-align: center;
 }
@@ -19,4 +25,8 @@ figure.about-pic {
     background-size: initial;
     background-position: initial;
     transition: initial;
+}
+
+.article-content a {
+    text-decoration: underline;
 }
