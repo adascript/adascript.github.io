@@ -11,9 +11,9 @@ email: carrie.coxwell@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   i learn things, i teach things, and i make things. i also love animals.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://carriecoxwell.com" # the base hostname & protocol for your site
-twitter_username: carriecoxwell 
-github_username: ccoxwell
+url: "http://adascript.io" # the base hostname & protocol for your site
+twitter_username: adascript 
+github_username: adascript
 
 # Build settings
 markdown: kramdown
